@@ -1,0 +1,84 @@
+.textInSlider h3{
+  font-size: 4em;
+}
+.textInSlider p{
+  font-size: 1.7em;
+  color: white;
+}
+#special_color h3{
+  color: gray;
+}
+.templatemo_block h2{
+  font-size: 30px;
+  color: whitesmoke;
+}
+.templatemo_block p{
+  font-size: 15px;
+  color: white;
+}
+.color_header{
+  background-color: #EFE2CA;
+}
+.padding_bottom{
+  padding: 0 0 20px 0;
+}
+#color_green{
+  background-color: #22B473;
+}
+#color_orange{
+  background-color: #E87B51;
+}
+#color_blue{
+  background-color: #4495CC;
+}
+#color_navi{
+  background-color: #435a6b;
+}
+#color_yellow{
+  background-color: #f19f0f;
+}
+.distance{
+  margin: -10px 0 0 0;
+}
+.jumbotron{
+  padding: 0px;
+  background: white;
+}
+.span_color_green span{
+  background: #398F69 !important;
+}
+.span_color_green a::before{
+  color: #0f7c67 !important;
+}
+
+.span_color_orange span{
+  background: #B56243 !important;
+}
+.span_color_orange a::before{
+  color: #B7603E !important;
+}
+
+.span_color_blue span{
+  background: #33709A !important;
+}
+.span_color_blue a::before{
+  color: #377AA7 !important;
+}
+
+.span_color_navi span{
+  background: #334654 !important;
+}
+.span_color_navi a::before{
+  color: #31424F !important;
+}
+
+.span_color_yellow span{
+  background: #B77C14 !important;
+}
+.span_color_yellow a::before{
+  color: #CE880C !important;
+}
+.round_2 a::before,
+.round_2 a::after {
+  padding-right: 100px !important;
+}
