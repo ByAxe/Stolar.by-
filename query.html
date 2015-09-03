@@ -3,7 +3,7 @@
   <head>
     <title>Столяр-Плотник</title>
     <meta name="keywords" content="" />
-	<meta name="description" content="" />
+	  <meta name="description" content="" />
     <!--
     Smoothy Template
     http://www.templatemo.com/free-website-templates/396-smoothy
@@ -46,7 +46,7 @@
   <link rel="stylesheet" type="text/css" href="css/links.css" />
 
   </head>
-  <body>
+  <body style="background-color: #195065;">
 
     <div class="navbar navbar-static-top color_header">
       <div class="container">
@@ -55,49 +55,61 @@
         </div>
       </div>
     </div>
+    <div class="flex blockWithForm">
+    <div class="container">
+      <form class="form-horizontal">
+        <fieldset>
 
-    <!--Contact Start -->
-    <div class="templatemo_lightgrey" id="templatemo_contact">
-    	<div class="templatemo_paracenter">
-    	<h2>Свяжитесь с нами</h2></div>
-        <div class="clear"></div>
-        <div class="container">
-        	<div class="templatemo_paracenter">
-            Любой заказ - это индивидуальное событие. Мы хотим сделать так, чтобы люди могли рекомендовать нас другим. Оставьте свою заявку - и наш агент свяжется с вами в ближайшее время!
-            </div>
-            <div class="clear"></div>
-            <div class="container">
-        <div class="row">
-          <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <form role="form">
-              <div class="form-group">
-                <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Ваше Имя и Фамилия" maxlength="60">
-              </div>
-              <div class="form-group">
-                <input name="email" type="text" class="form-control" id="email" placeholder="Ваш Email" maxlength="30">
-              </div>
-              <div class="form-group">
-                <input name="subject" type="text" class="form-control" id="subject" placeholder="Ваша Тема" maxlength="40">
-              </div>
-              <div><button type="button" class="btn btn-primary">Отправить Заявку</button></div>
-            </form>
-          </div>
-          <div class="col-md-9">
-            <div class="txtarea">
-              <textarea name="message" rows="10" class="form-control" id="message"></textarea>
-            </div>
+        <!-- Form Name -->
+        <legend>Форма заказа</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="problem">Ваша проблема:</label>
+          <div class="col-md-7">
+            <input id="problem" name="problem" type="text" placeholder="Краткое описание:" class="form-control input-md" required="">
           </div>
         </div>
-      </div>
-        </div>
-      </div>
-        </div>
-  </div>
 
-    <!--Contact End-->
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="name">ФИО:</label>
+          <div class="col-md-7">
+            <input id="name" name="name" type="text" placeholder="Фамилия Имя Отчество" class="form-control input-md" required="">
+          </div>
+        </div>
 
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="email">E-mail:</label>
+          <div class="col-md-7">
+            <input id="email" name="email" type="text" placeholder="example@gmail.com" class="form-control input-md">
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="phoneNumber">Номер Телефона:</label>
+          <div class="col-md-7">
+            <input id="phoneNumber" name="phoneNumber" type="text" placeholder="+375..." class="form-control input-md" required="">
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="problemFull">Подробное описание:</label>
+          <div class="col-md-7">
+            <textarea class="form-control area" id="problemFull" name="problemFull"></textarea>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <button type="button" class="btn btn-info btn-lg col-sm-12 col-md-7 col-md-offset-3 paddingToFooter">Отправить заявку!</button>
+
+        </fieldset>
+      </form>
+    </div>
+    </div>
     <!-- Bottom Start -->
       <div class="templatemo_bottom navbar-fixed-bottom">
       	<div class="container">

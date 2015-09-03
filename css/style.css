@@ -17,7 +17,7 @@
   color: white;
 }
 .color_header{
-  background-color: #EFE2CA;
+  background-color: #44946E;
 }
 .padding_bottom{
   padding: 0 0 20px 0;
@@ -81,4 +81,27 @@
 .round_2 a::before,
 .round_2 a::after {
   padding-right: 100px !important;
+}
+.row{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.blockWithForm{
+  color: whitesmoke;
+  padding: 35px 0;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.area{
+  min-height: 300px;
+}
+
+legend{
+  font-size: 35px;
+  color: white !important;
+}
+
+.paddingToFooter{
+  margin-bottom: 35px;
 }
