@@ -105,3 +105,31 @@ legend{
 .paddingToFooter{
   margin-bottom: 35px;
 }
+
+.list-group-item  {
+  border: none;
+  font-size: 2.5em;
+}
+.codrops-header > h1{
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(40px)
+}
+
+.codrops-header span{
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-40px)
+}
+.margin-bottom{
+  margin: 0 0 0 6%;
+  padding: 0 0 1% 0;
+}
+
+.hint{
+    width: 200px; height: 200px;
+    background: #666;
+
+    border-top-left-radius: 15em 1em;
+    border-bottom-right-radius: 15em 1em;
+}
