@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 <!--/***********************************************
 * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
@@ -61,32 +62,29 @@ ddsmoothmenu.init({
     <header>
     <!-- start menu -->
     <div id="templatemo_home">
-    	<div class="templatemo_top">
-      <div class="container templatemo_container">
-        <div class="row">
-          <div class="col-sm-3 col-md-3">
-            <div class="logo">
-              <a href="#"><img src="images/templatemo_logo.png" alt="logo"></a>
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+                <span class="sr-only">Open Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Столяр.by</a>
             </div>
-          </div>
-          <div class="col-sm-9 col-md-9 templatemo_col9">
-          	<div id="top-menu">
-            <nav class="mainMenu">
-              <ul class="nav">
-                <li><a class="menu" href="#templatemo_home">Главная</a></li>
-                <li><a class="menu" href="#templatemo_about">О нас</a></li>
-                <li><a class="menu" href="#templatemo_portfolio">Галлерея</a></li>
-                <li><a class="menu" href="#templatemo_blog">Блог</a></li>
-                <li><a class="menu" href="#templatemo_contact">Контакты</a></li>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Виды выполняемых работ </a></li>
+                <li><a href="#">Галлерея</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Форма заказа</a></li>
               </ul>
-            </nav>
             </div>
           </div>
         </div>
-      </div>
     </div>
-    </div>
-    <div class="clear"></div>
     <!-- end menu -->
     <a href="#">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="5000">
@@ -434,7 +432,7 @@ ddsmoothmenu.init({
     </div>
     <!--Our Portfolio End-->
     <div class="clear"></div>
-    <!--Our Blog Start-->
+    <!--Our Blog Start
     <div class="templatemo_blog" id="templatemo_blog">
     	<h2>Мы в Социальных Сетях</h2>
         	<p>Подписывайтесь и следите за новинками.</p>
@@ -461,8 +459,8 @@ ddsmoothmenu.init({
           </div>
         </div>
     </div>
-    <!--Our Blog End-->
-	<!--Our Partner Start-->
+    Our Blog End-->
+	<!--Our Partner Start
     <div class="section6 templatemo_partner" id="templatemo_partners">
       <div class="container">
         <div class="row">
@@ -497,7 +495,7 @@ ddsmoothmenu.init({
       </div>
 
     </div>
-    <!--Our Partner End-->
+    Our Partner End-->
     <!--Our Client Start-->
     <div class="templatemo_reasonbg">
     	<h2>Что говорят наши клиеты?</h2>
@@ -539,48 +537,65 @@ ddsmoothmenu.init({
             <div class="clear"></div>
         </div>
 
-	</div>
+	  </div>
      <div class="clear"></div>
     <!--Our Client End-->
     <!--Contact Start -->
-    <div class="templatemo_lightgrey" id="templatemo_contact">
-    	<div class="templatemo_paracenter">
-    	<h2>Свяжитесь с нами</h2></div>
-        <div class="clear"></div>
-        <div class="container">
-        	<div class="templatemo_paracenter">
-            Любой заказ - это индивидуальное событие. Мы хотим сделать так, чтобы люди могли рекомендовать нас другим. Оставьте свою заявку - и наш агент свяжется с вами в ближайшее время!
-            </div>
-            <div class="clear"></div>
-            <div class="container">
-        <div class="row">
-          <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <form role="form">
-              <div class="form-group">
-                <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Ваше Имя и Фамилия" maxlength="60">
-              </div>
-              <div class="form-group">
-                <input name="email" type="text" class="form-control" id="email" placeholder="Ваш Email" maxlength="30">
-              </div>
-              <div class="form-group">
-                <input name="subject" type="text" class="form-control" id="subject" placeholder="Ваша Тема" maxlength="40">
-              </div>
-              <div><button type="button" class="btn btn-primary">Отправить Заявку</button></div>
-            </form>
-          </div>
-          <div class="col-md-9">
-            <div class="txtarea">
-              <textarea name="message" rows="10" class="form-control" id="message"></textarea>
-            </div>
+    <div class="flex blockWithForm" style="background-color: #F3EFE0; color: gray;">
+    <div class="container">
+      <form class="form-horizontal">
+        <fieldset>
+
+        <!-- Form Name -->
+        <legend>Форма заказа</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="problem">Ваша проблема:</label>
+          <div class="col-md-7">
+            <input id="problem" name="problem" type="text" placeholder="Краткое описание:" class="form-control input-md" required="">
           </div>
         </div>
-      </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="name">ФИО:</label>
+          <div class="col-md-7">
+            <input id="name" name="name" type="text" placeholder="Фамилия Имя Отчество" class="form-control input-md" required="">
+          </div>
         </div>
-      </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="email">E-mail:</label>
+          <div class="col-md-7">
+            <input id="email" name="email" type="text" placeholder="example@gmail.com" class="form-control input-md">
+          </div>
         </div>
-  </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="phoneNumber">Номер Телефона:</label>
+          <div class="col-md-7">
+            <input id="phoneNumber" name="phoneNumber" type="text" placeholder="+375..." class="form-control input-md" required="">
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <label class="col-md-3 control-label" for="problemFull">Подробное описание:</label>
+          <div class="col-md-7">
+            <textarea class="form-control area" id="problemFull" name="problemFull"></textarea>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <button type="button" class="btn btn-info btn-lg col-sm-12 col-md-7 col-md-offset-3 paddingToFooter">Отправить заявку!</button>
+
+        </fieldset>
+      </form>
+    </div>
+    </div>
 
     <!--Contact End-->
     <!--Footer Start-->
@@ -591,7 +606,7 @@ ddsmoothmenu.init({
                 <p>Мы выполняем строительные работы любой сложности: Потолки, Стены, Полы, утепление... Постройка бань, гаражей, дач, туалетов и т.д. Атресоли, шкафы и другая мебель. Окна и Балконы, Двери и Диваны - это наш профиль.</p>
           </div>
             <div class="col-xs-6 col-sm-6 col-md-3 templatemo_col12">
-            	<h2>Services</h2>
+            	<h2>Услуги</h2>
                 <ul>
                   <li>Лестницы</li>
                   <li>Встроенная мебель</li>
@@ -657,9 +672,6 @@ ddsmoothmenu.init({
     <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.cycle2.min.js"></script>
-    <script src="js/jquery.cycle2.carousel.min.js"></script>
-    <script src="js/jquery.nivo.slider.pack.js"></script>
     <script>$.fn.cycle.defaults.autoSelector = '.slideshow';</script>
     <script type="text/javascript">
       $(function(){
