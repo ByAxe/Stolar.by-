@@ -42,7 +42,7 @@
 }
 .jumbotron{
   padding: 0px;
-  background: white;
+  background: #f3efe0;
 }
 .span_color_green span{
   background: #398F69 !important;
@@ -132,6 +132,7 @@ legend{
 }
 .navbar-inverse{
   margin-bottom: 0;
+  background-color: #333536;
 }
 
 
