@@ -125,11 +125,3 @@ legend{
   margin: 0 0 0 6%;
   padding: 0 0 1% 0;
 }
-
-.hint{
-    width: 200px; height: 200px;
-    background: #666;
-
-    border-top-left-radius: 15em 1em;
-    border-bottom-right-radius: 15em 1em;
-}
