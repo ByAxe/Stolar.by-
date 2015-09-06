@@ -1,3 +1,7 @@
+html, body{
+height: 100%;
+}
+
 .textInSlider h3{
   font-size: 4em;
 }
@@ -100,7 +104,7 @@
 legend{
   text-align: center;
   font-size: 2.5em;
-  color: #48A770 !important
+  color: #757575 !important;
 }
 
 .paddingToFooter{
@@ -143,4 +147,13 @@ legend{
 }
 fieldset{
   color: gray;
+}
+
+.vertical-menu{
+  font-size: 1.5em;
+  background-color: #333536;
+}
+
+.vertical-menu a{
+  color: #65BC7C;
 }
