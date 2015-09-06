@@ -10,7 +10,8 @@ html, body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	padding: 0px;
 	margin: 0px;
-	color: #8a8a8a;
+	color: #777777;
+	background: #f3efe0;
 }
 
 a {
@@ -116,13 +117,18 @@ img {
 }
 
 .btn-primary {
-	background-color: #72b842;
-	border-color: #5ea32e;
+	background-color: #48A770;
+	border-color: #48A770;
 }
 
 .btn-primary:hover {
-	background-color: #48A770;
-	border-color: #48A770;
+	background-color: #417C59;
+	border-color: #417C59;
+}
+
+.btn-primary:focus{
+	background-color: green;
+	border-color: green;
 }
 
 .templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-size: 12px; }
@@ -473,6 +479,7 @@ img {
 }
 .templatemo_footer	{
 	padding: 40px 0px;
+	background-color: white;
 }
 
 .templatemo_footer ul {
@@ -608,8 +615,8 @@ and (max-width : 480px) {
 @media(max-width:767px){
 	.templatemo_col9	{ padding: 0px;}
 	.templatemo_slider	{ top: 130px;}
-	.templatemo_lightgrey_about	{ padding-top: 150px;}
-	.templatemo_portfolio	{ padding-top: 130px; }
+	.templatemo_lightgrey_about	{ padding-top: 50px;}
+	.templatemo_portfolio	{ padding-top: 40px; }
 	.templatemo_blog	{ padding-top: 130px;}
 	.templatemo_partner	{ padding-top: 130px;}
 	.templatemo_lightgrey	{ padding-top: 130px;}
