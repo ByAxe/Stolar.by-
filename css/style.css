@@ -35,11 +35,20 @@ height: 100%;
 #color_blue{
   background-color: #4495CC;
 }
+#color_dark-blue{
+  background-color: #488EA3;
+}
 #color_navi{
   background-color: #435a6b;
 }
 #color_yellow{
   background-color: #f19f0f;
+}
+#color_jungle{
+  background-color: #509D85;
+}
+#color_sand{
+  background-color: #C7C1A6;
 }
 .distance{
   margin: -10px 0 0 0;
@@ -163,14 +172,15 @@ fieldset{
 
 
 
-.animation-target {
-  -webkit-animation: animation 1000ms linear both;
-  animation: animation 1000ms linear both;
+.animation-target-button {
+  -webkit-animation: animation-button 2000ms linear both;
+  animation: animation-button 2000ms linear both;
+
 }
 
 /* Generated with Bounce.js. Edit at http://goo.gl/wlGEaI */
 
-@-webkit-keyframes animation {
+@-webkit-keyframes animation-button {
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
   1.45% { -webkit-transform: matrix3d(4.281, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -230.151, 0, 0, 1); transform: matrix3d(4.281, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -230.151, 0, 0, 1); }
   2.85% { -webkit-transform: matrix3d(5.027, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -170.864, 0, 0, 1); transform: matrix3d(5.027, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -170.864, 0, 0, 1); }
@@ -195,7 +205,7 @@ fieldset{
   100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
 
-@keyframes animation {
+@keyframes animation-button {
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -300, 0, 0, 1); }
   1.45% { -webkit-transform: matrix3d(4.281, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -230.151, 0, 0, 1); transform: matrix3d(4.281, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -230.151, 0, 0, 1); }
   2.85% { -webkit-transform: matrix3d(5.027, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -170.864, 0, 0, 1); transform: matrix3d(5.027, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -170.864, 0, 0, 1); }
@@ -236,6 +246,48 @@ fieldset{
   animation-fill-mode: forwards;
   -webkit-transform: scale(1, 0);
   display: block;
-  transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+}
+
+.category-header{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.category-text, .gallery-text{
+  font-size: 1.5em !important;
+}
+.gallery-text{
+  color: white;
+}
+
+.dropdown-menu>li>a{
+  font-size: 1.2em;
+}
+
+@media(min-width:600px) and (max-width:992px){
+  .btn-lg{
+    font-size: 1.5em;
+  }
+}
+
+.padding-to-category{
+  padding: 20px;
+}
+
+
+.caption{
+  positon: absolute;
+  z-index: 100;
+  top:0;
+}
+
+
+.last-container-with-photo{
+  padding-bottom: 3% !important;
+}
+
+.modal-open {
+    overflow: visible !important;
 }

@@ -233,7 +233,7 @@ img {
 }
 
 .templatemo_reasonbg {
-	background: url(../images/templatemo_reasonbg.jpg) no-repeat;
+	background-color: #333536;
 	background-position: center;
 	padding: 30px 0px 70px 0px;
 	color: #ffffff;
