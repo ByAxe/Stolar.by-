@@ -1,7 +1,9 @@
 html, body{
 height: 100%;
 }
-
+.textInSlider h3, .textInSlider p{
+    background-color: rgba(52,48,45,0.8);
+}
 .textInSlider h3{
   font-size: 4em;
 }
@@ -30,7 +32,7 @@ height: 100%;
   background-color: #22B473;
 }
 #color_orange{
-  background-color: #E87B51;
+  background-color: #333333;
 }
 #color_blue{
   background-color: #4495CC;
@@ -65,10 +67,10 @@ height: 100%;
 }
 
 .span_color_orange span{
-  background: #B56243 !important;
+  border: 3px solid #fff !important;
 }
 .span_color_orange a::before{
-  color: #B7603E !important;
+  color: #5F5F5F !important;
 }
 
 .span_color_blue span{
@@ -146,6 +148,7 @@ legend{
 .navbar-inverse{
   margin-bottom: 0;
   background-color: #333536;
+  font-weight: bold;
 }
 
 
@@ -290,4 +293,13 @@ fieldset{
 
 .modal-open {
     overflow: visible !important;
+}
+
+.carousel-caption{
+  text-shadow: none !important;
+}
+.container .headline > h2{
+  font-size: 35px;
+  color: #424242;
+  text-align: center;
 }
